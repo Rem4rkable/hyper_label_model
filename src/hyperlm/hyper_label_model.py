@@ -4,8 +4,7 @@ import numpy as np
 from scipy.sparse import coo_matrix
 import torch.optim as optim
 import os
-
-from .loss import BCEMask, BCEMaskWeighted
+from loss import BCEMask, BCEMaskWeighted
 
 
 def sparse_mean(index, value, expand=True):
